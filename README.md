@@ -28,6 +28,8 @@ calling context; it is not a universal guarantee.
 
 ## Demo
 
+[GitHub Pages](https://andrii-dolzhenko.github.io/njs-homework-03-event-loop/)
+
 Run `npm run build`, then open `dist/index.html` with VS Code Live Server.
 
 The interactive page is an educational simulation of the test scenario.
