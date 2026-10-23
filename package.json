@@ -1,0 +1,24 @@
+{
+  "name": "njs-homework-03-event-loop",
+  "version": "1.0.0",
+  "main": "src/main.js",
+  "license": "MIT",
+  "devDependencies": {
+    "@testing-library/jest-dom": "6.9.1",
+    "jsdom": "^26.0.0",
+    "vitest": "4.1.12"
+  },
+  "dependencies": {
+    "typescript": "^5.8.3"
+  },
+  "scripts": {
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "start": "node src/main.js",
+    "test:node": "node scripts/check-node.js",
+    "build": "node scripts/build-demo.js",
+    "check": "node --check src/main.js && node --check demo/app.js && node --check demo/scheduler.js && node --check scripts/check-node.js && node --check scripts/build-demo.js && npm test && npm run test:node && npm run build"
+  },
+  "private": true,
+  "type": "module"
+}
