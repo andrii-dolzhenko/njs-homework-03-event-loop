@@ -4,9 +4,9 @@
   "main": "src/main.js",
   "license": "MIT",
   "devDependencies": {
-    "@testing-library/jest-dom": "^6.6.3",
+    "@testing-library/jest-dom": "6.9.1",
     "jsdom": "^26.0.0",
-    "vitest": "^3.1.1"
+    "vitest": "4.1.12"
   },
   "dependencies": {
     "typescript": "^5.8.3"
